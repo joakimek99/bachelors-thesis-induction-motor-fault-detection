@@ -9,7 +9,7 @@ Status: Completed (Bachelor’s Thesis, 2025)
 Copyright © 2025 Joakim Eklund
 
 ## Overview
-This repository contains my bachelor’s thesis on using spectral centroid (SC) as a vibration-domain indicator for detecting parallel shaft misalignment in induction motors. The work compares healthy, 0.5 mm, and 1 mm misalignment conditions across three axes (X, Y, Z) and four load levels (0%, 50%, 75%, 100%). The focus is on direct-on-line (DOL) operation at 60 Hz using openly available lab data. [3] [5] [9]
+This repository contains my bachelor’s thesis on using spectral centroid (SC) as a vibration-domain indicator for detecting parallel shaft misalignment in induction motors. The work compares healthy, 0.5 mm, and 1 mm misalignment conditions across three axes (X, Y, Z) and four load levels (0%, 50%, 75%, 100%). The focus is on direct-on-line (DOL) operation at 60 Hz using openly available lab data.
 
 - Goal: Evaluate whether SC can separate healthy from misaligned motor conditions and how load/axis affect reliability.
 - Scope limits: Only misalignment fault type (parallel). Emphasis on basic stats, FFT, and Spectral Centroid.
@@ -23,8 +23,8 @@ Induction motors develop faults such as shaft misalignment. This study investiga
   50%: 52.59, 62.84, 69.45  
   75%: 57.10, 65.05, 69.43  
   100%: 59.22, 65.33, 72.73
-- Y‑axis: Misaligned > healthy, but differences are smaller (e.g., +25.25 Hz at 0% load; +2.74 Hz at 100%). SC range ≈145–175 Hz.
-- Z‑axis: Less consistent; at higher loads, healthy SC can exceed misaligned by ≈0.45–4.04 Hz. SC range ≈103–141 Hz.
+- Y‑axis: Misaligned SC > healthy SC, but differences are smaller (e.g., +25.25 Hz at 0% load; +2.74 Hz at 100%). SC range ≈145–175 Hz.
+- Z‑axis: SC less consistent; at higher loads, healthy SC can exceed misaligned by ≈0.45–4.04 Hz. SC range ≈103–141 Hz.
 - Time‑domain statistics (X‑axis): Standard deviation increases with misalignment; +10–20% for 0.5 mm vs healthy; up to ≈2× for 1 mm vs healthy. Skewness and kurtosis remain close across conditions.
 - Frequency‑domain verification: Clear rotor‑speed peak around ≈29–30 Hz and pronounced ≈2× component around 58–59 Hz in misalignment, consistent with theory
 
@@ -37,7 +37,7 @@ Induction motors develop faults such as shaft misalignment. This study investiga
 - Spectral centroid definition: c = Σ(f_k m_k) / Σ(m_k) (frequency‑weighted mean of spectral magnitudes).
 
 ## Repository structure
-- thesis/ — Thesis PDF and figures
+- thesis/ — Thesis PDF and figures with appendix containing MATLAB code used in this thesis
 - README.md — This file
 
 ## How to reproduce
