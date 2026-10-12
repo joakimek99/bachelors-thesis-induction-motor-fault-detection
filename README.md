@@ -14,8 +14,8 @@ This repository contains my bachelor’s thesis on using spectral centroid (SC) 
 - Goal: Evaluate whether SC can separate healthy from misaligned motor conditions and how load/axis affect reliability.
 - Scope limits: Only misalignment fault type (parallel). Emphasis on basic stats, FFT, and Spectral Centroid.
 
-## Abstract (short)
-Induction motors develop faults such as shaft misalignment. This study investigates spectral centroid (SC)—the center of mass of the frequency spectrum—as a simple indicator of misalignment from vibration signals. Results show SC tends to be higher for misaligned motors in X and Y directions and under lighter loads in Z, while differences shrink with increased load; in Z at higher loads the healthy SC may exceed misaligned. Time‑domain standard deviation rises with misalignment, while skewness and kurtosis remain similar. SC shows potential under lighter loads but is sensitive to axis and load, and findings are limited by dataset size (one recording per condition).
+## Abstract
+Induction motors develop faults such as shaft misalignment. This study investigates spectral centroid (SC)—the center of mass of the frequency spectrum—as a simple indicator of misalignment from vibration signals. Results show SC tends to be higher for misaligned motors in X and Y directions and under lighter loads in Z, while differences shrink with increased load; in Z at higher loads the healthy SC may exceed misaligned. Time‑domain standard deviation rises with misalignment, while skewness and kurtosis remain similar. SC shows potential under lighter loads but is sensitive to axis and load, and findings are limited by dataset size.
 
 ## Key findings
 - X‑axis SC increases with misalignment at all loads; example SC (Hz):  
