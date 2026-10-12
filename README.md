@@ -4,7 +4,7 @@ A Study on Spectral Centroid as Fault Indicator for Misalignment
 Author: Joakim Eklund  
 Programme: Bachelor’s Programme in Electrical and Electronics Engineering  
 Date: 26.8.2025  
-Pages: 35 + 5 appendix  
+Pages: 34 + 5 appendix  
 Status: Completed (Bachelor’s Thesis, 2025)  
 Copyright © 2025 Joakim Eklund
 
